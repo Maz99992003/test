@@ -1,4 +1,14 @@
-text= "Hello{word}"
-print(text.format(word="World"))
-message1= "Hi , My name is {} and I am {} years old"
-print(message1.format("BoB",36))
+Email = input(("Email:"))
+lg=len(Email)
+if lg<=20 and lg >= 10: 
+    print("pass")
+else:
+        print("fail")
+
+
+if Email.index("@"):
+    print("Vaild")
+else:
+    print("Not Vaild")
+
+
